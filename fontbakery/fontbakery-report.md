@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.2
 
-<details><summary><b>[20] EduSABeginner-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[19] EduSABeginner-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -17,15 +17,10 @@ fontbakery version: 0.9.2
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
-* 🔥 **FAIL** fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoAscender is 2642 when it should be 2032 [code: bad-typo-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoDescender is -926 when it should be -488 [code: bad-typo-descender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Ascender is 2642 when it should be 2032 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Descender is -926 when it should be -488 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/EduSABeginner-Medium.ttf', 'fonts/ttf/EduSABeginner-SemiBold.ttf', 'fonts/ttf/EduSABeginner-Bold.ttf', 'fonts/ttf/EduSABeginner-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -788,17 +783,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, malayalam, tai-le, canadian-aboriginal, coptic, syriac, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, coptic, syriac, tai-le, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1239,7 +1234,7 @@ lessequal, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[20] EduSABeginner-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] EduSABeginner-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1254,15 +1249,10 @@ lessequal, greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
-* 🔥 **FAIL** fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoAscender is 2642 when it should be 2032 [code: bad-typo-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoDescender is -926 when it should be -488 [code: bad-typo-descender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Ascender is 2642 when it should be 2032 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Descender is -926 when it should be -488 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/EduSABeginner-Medium.ttf', 'fonts/ttf/EduSABeginner-SemiBold.ttf', 'fonts/ttf/EduSABeginner-Bold.ttf', 'fonts/ttf/EduSABeginner-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2025,17 +2015,17 @@ lessequal, greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, malayalam, tai-le, canadian-aboriginal, coptic, syriac, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, coptic, syriac, tai-le, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -2219,25 +2209,25 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 949 among a set of 3 math glyphs.
+* ⚠ **WARN** The most common width is 939 among a set of 3 math glyphs.
 The following math glyphs have a different width, though:
 
-Width = 863:
+Width = 854:
 less
 
-Width = 950:
+Width = 940:
 equal, plusminus, notequal
 
-Width = 864:
+Width = 856:
 greater
 
-Width = 917:
+Width = 909:
 multiply
 
-Width = 932:
+Width = 924:
 approxequal
 
-Width = 951:
+Width = 942:
 lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
@@ -2249,104 +2239,114 @@ lessequal, greaterequal
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* exclam (U+0021): X=131.0,Y=-1.0 (should be at baseline 0?)
+	* exclam (U+0021): X=125.0,Y=-1.0 (should be at baseline 0?)
 
-	* exclam (U+0021): X=131.0,Y=-1.0 (should be at baseline 0?)
+	* exclam (U+0021): X=125.0,Y=-1.0 (should be at baseline 0?)
 
-	* ampersand (U+0026): X=776.0,Y=2006.0 (should be at cap-height 2008?)
+	* ampersand (U+0026): X=777.0,Y=2006.0 (should be at cap-height 2008?)
 
-	* parenleft (U+0028): X=502.0,Y=-928.0 (should be at descender -926?)
+	* parenleft (U+0028): X=497.5,Y=-927.5 (should be at descender -926?)
 
-	* parenright (U+0029): X=330.5,Y=2007.0 (should be at cap-height 2008?)
+	* parenright (U+0029): X=332.0,Y=2006.5 (should be at cap-height 2008?)
 
-	* asterisk (U+002A): X=595.5,Y=2007.0 (should be at cap-height 2008?)
+	* period (U+002E): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* period (U+002E): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* period (U+002E): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* period (U+002E): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* colon (U+003A): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* colon (U+003A): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* colon (U+003A): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* colon (U+003A): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* X (U+0058): X=1308.0,Y=2007.5 (should be at cap-height 2008?)
 
-	* X (U+0058): X=1347.0,Y=2006.5 (should be at cap-height 2008?)
+	* X (U+0058): X=1120.0,Y=0.5 (should be at baseline 0?)
 
-	* X (U+0058): X=1121.0,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=128.5,Y=-0.5 (should be at baseline 0?)
 
-	* Y (U+0059): X=522.5,Y=0.5 (should be at baseline 0?)
+	* Y (U+0059): X=520.0,Y=1.5 (should be at baseline 0?)
 
-	* a (U+0061): X=675.5,Y=1080.0 (should be at x-height 1082?)
+	* b (U+0062): X=430.5,Y=1.5 (should be at baseline 0?)
 
-	* b (U+0062): X=438.5,Y=1.0 (should be at baseline 0?)
+	* d (U+0064): X=657.5,Y=1081.0 (should be at x-height 1082?)
 
-	* d (U+0064): X=655.5,Y=1082.5 (should be at x-height 1082?)
+	* g (U+0067): X=689.5,Y=1083.0 (should be at x-height 1082?)
 
-	* braceright (U+007D): X=282.5,Y=2007.0 (should be at cap-height 2008?)
+	* braceright (U+007D): X=283.0,Y=2007.0 (should be at cap-height 2008?)
 
-	* cent (U+00A2): X=305.0,Y=2.0 (should be at baseline 0?)
+	* sterling (U+00A3): X=578.0,Y=2010.0 (should be at cap-height 2008?)
 
-	* cent (U+00A2): X=454.0,Y=-2.0 (should be at baseline 0?)
+	* yen (U+00A5): X=304.5,Y=1.5 (should be at baseline 0?)
 
-	* sterling (U+00A3): X=584.0,Y=2010.0 (should be at cap-height 2008?)
+	* questiondown (U+00BF): X=501.0,Y=-2.0 (should be at baseline 0?)
 
-	* yen (U+00A5): X=308.5,Y=0.5 (should be at baseline 0?)
+	* questiondown (U+00BF): X=501.0,Y=-2.0 (should be at baseline 0?)
 
-	* questiondown (U+00BF): X=503.0,Y=-2.0 (should be at baseline 0?)
+	* Ygrave (U+1EF2): X=520.0,Y=1.5 (should be at baseline 0?)
 
-	* questiondown (U+00BF): X=503.0,Y=-2.0 (should be at baseline 0?)
+	* ellipsis (U+2026): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* Ygrave (U+1EF2): X=522.5,Y=0.5 (should be at baseline 0?)
+	* ellipsis (U+2026): X=127.0,Y=-1.0 (should be at baseline 0?)
 
-	* ellipsis (U+2026): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* ellipsis (U+2026): X=656.0,Y=-1.0 (should be at baseline 0?)
 
-	* ellipsis (U+2026): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* ellipsis (U+2026): X=656.0,Y=-1.0 (should be at baseline 0?)
 
-	* ellipsis (U+2026): X=673.0,Y=-1.0 (should be at baseline 0?)
+	* ellipsis (U+2026): X=1188.0,Y=-1.0 (should be at baseline 0?)
 
-	* ellipsis (U+2026): X=673.0,Y=-1.0 (should be at baseline 0?)
-
-	* ellipsis (U+2026): X=1216.0,Y=-1.0 (should be at baseline 0?)
-
-	* ellipsis (U+2026): X=1216.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+	* ellipsis (U+2026): X=1188.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* at (U+0040) contains a short segment B<<1320.0,560.0>-<1310.0,520.0>-<1305.0,479.5>>
+	* at (U+0040) contains a short segment B<<1289.0,474.5>-<1284.0,432.0>-<1291.5,403.5>>
 
-	* at (U+0040) contains a short segment B<<1305.0,479.5>-<1300.0,439.0>-<1307.5,411.5>>
+	* at (U+0040) contains a short segment B<<1291.5,403.5>-<1299.0,375.0>-<1326.0,375.0>>
 
-	* at (U+0040) contains a short segment B<<1307.5,411.5>-<1315.0,384.0>-<1341.0,384.0>>
+	* M (U+004D) contains a short segment B<<84.0,0.0>-<48.0,0.0>-<17.5,19.0>>
 
-	* M (U+004D) contains a short segment B<<92.0,0.0>-<54.0,0.0>-<22.5,20.0>>
+	* M (U+004D) contains a short segment B<<17.5,19.0>-<-13.0,38.0>-<-23.0,74.5>>
 
-	* M (U+004D) contains a short segment B<<22.5,20.0>-<-9.0,40.0>-<-20.5,78.0>>
+	* M (U+004D) contains a short segment B<<844.0,1918.0>-<864.0,1961.0>-<889.5,1984.5>>
 
-	* M (U+004D) contains a short segment B<<843.0,1916.0>-<864.0,1960.0>-<890.0,1984.0>>
+	* M (U+004D) contains a short segment B<<889.5,1984.5>-<915.0,2008.0>-<969.0,2008.0>>
 
-	* M (U+004D) contains a short segment B<<1337.0,88.0>-<1324.0,64.0>-<1294.5,32.0>>
+	* M (U+004D) contains a short segment B<<1069.0,1980.0>-<1096.0,1952.0>-<1102.0,1903.0>>
 
-	* M (U+004D) contains a short segment B<<1093.5,32.0>-<1062.0,64.0>-<1058.0,108.0>>
+	* M (U+004D) contains a short segment B<<1949.0,1915.0>-<1969.0,1957.0>-<2003.0,1982.5>>
 
-	* M (U+004D) contains a short segment B<<175.5,21.5>-<128.0,0.0>-<92.0,0.0>>
+	* M (U+004D) contains a short segment B<<2197.0,32.0>-<2162.0,64.0>-<2158.0,104.0>>
 
-	* W (U+0057) contains a short segment B<<1616.0,1979.0>-<1648.0,1950.0>-<1655.0,1903.0>>
+	* M (U+004D) contains a short segment B<<1329.0,86.0>-<1316.0,62.0>-<1287.5,31.0>>
 
-	* W (U+0057) contains a short segment B<<2416.0,1914.0>-<2429.0,1949.0>-<2463.5,1978.5>>
+	* M (U+004D) contains a short segment B<<1094.5,30.5>-<1065.0,61.0>-<1061.0,104.0>>
 
-	* yen (U+00A5) contains a short segment L<<280.0,304.0>--<267.0,304.0>>
+	* M (U+004D) contains a short segment B<<164.0,20.5>-<119.0,0.0>-<84.0,0.0>>
 
-	* yen (U+00A5) contains a short segment L<<965.0,942.0>--<1010.0,942.0>>
+	* W (U+0057) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
 
-	* Wgrave (U+1E80) contains a short segment B<<1616.0,1979.0>-<1648.0,1950.0>-<1655.0,1903.0>>
+	* W (U+0057) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
 
-	* Wgrave (U+1E80) contains a short segment B<<2416.0,1914.0>-<2429.0,1949.0>-<2463.5,1978.5>> [code: found-short-segments]
+	* W (U+0057) contains a short segment B<<1608.0,1980.0>-<1638.0,1952.0>-<1645.0,1907.0>>
+
+	* W (U+0057) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
+
+	* yen (U+00A5) contains a short segment L<<287.0,306.0>--<264.0,306.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<1608.0,1980.0>-<1638.0,1952.0>-<1645.0,1907.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
+
+	* Euro (U+20AC) contains a short segment L<<609.0,1028.0>--<609.0,1027.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[19] EduSABeginner-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] EduSABeginner-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2361,15 +2361,10 @@ lessequal, greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
-* 🔥 **FAIL** fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoAscender is 2642 when it should be 2032 [code: bad-typo-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoDescender is -926 when it should be -488 [code: bad-typo-descender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Ascender is 2642 when it should be 2032 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Descender is -926 when it should be -488 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/EduSABeginner-Medium.ttf', 'fonts/ttf/EduSABeginner-SemiBold.ttf', 'fonts/ttf/EduSABeginner-Bold.ttf', 'fonts/ttf/EduSABeginner-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3132,17 +3127,17 @@ lessequal, greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, malayalam, tai-le, canadian-aboriginal, coptic, syriac, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, coptic, syriac, tai-le, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -3408,7 +3403,7 @@ lessequal, greaterequal
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[19] EduSABeginner-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] EduSABeginner-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -3423,15 +3418,10 @@ lessequal, greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
-* 🔥 **FAIL** fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoAscender is 2642 when it should be 2032 [code: bad-typo-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: OS/2 sTypoDescender is -926 when it should be -488 [code: bad-typo-descender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Ascender is 2642 when it should be 2032 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Edu SA Beginner Regular: hhea Descender is -926 when it should be -488 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/EduSABeginner-Medium.ttf', 'fonts/ttf/EduSABeginner-SemiBold.ttf', 'fonts/ttf/EduSABeginner-Bold.ttf', 'fonts/ttf/EduSABeginner-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4194,17 +4184,17 @@ lessequal, greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, malayalam, tai-le, canadian-aboriginal, coptic, syriac, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, coptic, syriac, tai-le, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -4466,8 +4456,8 @@ lessequal, greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 24 | 42 | 482 | 21 | 364 | 0 |
-| 1% | 3% | 4% | 51% | 2% | 39% | 0% |
+| 12 | 20 | 42 | 482 | 21 | 368 | 0 |
+| 1% | 2% | 4% | 51% | 2% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
