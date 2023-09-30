@@ -208,18 +208,48 @@ name = medial_e;
 );
 customParameters = (
 {
-name = "Write lastChange";
-value = 0;
-},
-{
-disabled = 1;
-name = "Use Typo Metrics";
-value = 0;
-},
-{
 name = fsType;
 value = (
 );
+},
+{
+name = blueFuzz;
+value = 0;
+},
+{
+name = blueScale;
+value = 0.037;
+},
+{
+name = blueShift;
+value = 5;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+400 = 400;
+500 = 500;
+600 = 600;
+700 = 700;
+};
+};
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-09-29 17:24:58 +0000";
@@ -38733,6 +38763,7 @@ metricRight = Z;
 },
 {
 glyphname = a;
+lastChange = "2023-09-30 02:03:48 +0000";
 layers = (
 {
 anchors = (
@@ -38942,6 +38973,7 @@ unicode = 228;
 {
 color = 1;
 glyphname = agrave;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -39020,6 +39052,7 @@ unicode = 229;
 {
 color = 1;
 glyphname = atilde;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -39067,6 +39100,7 @@ unicode = 230;
 },
 {
 glyphname = b;
+lastChange = "2023-09-30 02:37:41 +0000";
 layers = (
 {
 anchors = (
@@ -39213,6 +39247,7 @@ unicode = 98;
 },
 {
 glyphname = c;
+lastChange = "2023-09-30 02:03:22 +0000";
 layers = (
 {
 anchors = (
@@ -39396,6 +39431,7 @@ unicode = 267;
 },
 {
 glyphname = d;
+lastChange = "2023-09-30 02:37:54 +0000";
 layers = (
 {
 anchors = (
@@ -39597,6 +39633,7 @@ unicode = 240;
 },
 {
 glyphname = e;
+lastChange = "2023-09-30 02:37:00 +0000";
 layers = (
 {
 anchors = (
@@ -39815,6 +39852,7 @@ unicode = 279;
 {
 color = 1;
 glyphname = egrave;
+lastChange = "2023-09-30 02:38:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -39877,6 +39915,7 @@ unicode = 281;
 },
 {
 glyphname = f;
+lastChange = "2023-09-30 01:43:12 +0000";
 layers = (
 {
 anchors = (
@@ -40015,6 +40054,7 @@ unicode = 102;
 },
 {
 glyphname = g;
+lastChange = "2023-09-30 01:55:08 +0000";
 layers = (
 {
 anchors = (
@@ -40224,6 +40264,7 @@ unicode = 289;
 },
 {
 glyphname = h;
+lastChange = "2023-09-30 02:16:47 +0000";
 layers = (
 {
 anchors = (
@@ -40368,6 +40409,7 @@ unicode = 295;
 },
 {
 glyphname = i;
+lastChange = "2023-09-30 02:36:09 +0000";
 layers = (
 {
 anchors = (
@@ -40592,6 +40634,7 @@ unicode = 303;
 {
 color = 8;
 glyphname = ij;
+lastChange = "2023-09-30 02:48:20 +0000";
 layers = (
 {
 layerId = m01;
@@ -40624,6 +40667,7 @@ unicode = 307;
 },
 {
 glyphname = j;
+lastChange = "2023-09-30 02:47:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -40756,6 +40800,7 @@ unicode = 567;
 },
 {
 glyphname = k;
+lastChange = "2023-09-30 02:36:22 +0000";
 layers = (
 {
 anchors = (
@@ -40896,6 +40941,7 @@ unicode = 311;
 },
 {
 glyphname = l;
+lastChange = "2023-09-30 02:28:17 +0000";
 layers = (
 {
 anchors = (
@@ -41050,6 +41096,7 @@ unicode = 322;
 },
 {
 glyphname = m;
+lastChange = "2023-09-30 02:16:47 +0000";
 layers = (
 {
 anchors = (
@@ -41212,6 +41259,7 @@ unicode = 109;
 },
 {
 glyphname = n;
+lastChange = "2023-09-30 02:16:38 +0000";
 layers = (
 {
 anchors = (
@@ -41378,6 +41426,7 @@ unicode = 326;
 {
 color = 1;
 glyphname = ntilde;
+lastChange = "2023-09-30 02:16:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -41425,6 +41474,7 @@ unicode = 331;
 },
 {
 glyphname = o;
+lastChange = "2023-09-30 01:57:36 +0000";
 layers = (
 {
 anchors = (
@@ -41603,6 +41653,7 @@ unicode = 246;
 {
 color = 1;
 glyphname = ograve;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -41681,6 +41732,7 @@ unicode = 248;
 {
 color = 1;
 glyphname = otilde;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -41728,6 +41780,7 @@ unicode = 339;
 },
 {
 glyphname = p;
+lastChange = "2023-09-30 02:01:55 +0000";
 layers = (
 {
 anchors = (
@@ -41885,6 +41938,7 @@ unicode = 254;
 },
 {
 glyphname = q;
+lastChange = "2023-09-30 02:16:00 +0000";
 layers = (
 {
 anchors = (
@@ -42048,6 +42102,7 @@ unicode = 113;
 },
 {
 glyphname = r;
+lastChange = "2023-09-30 02:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -42209,6 +42264,7 @@ unicode = 343;
 },
 {
 glyphname = s;
+lastChange = "2023-09-30 02:34:11 +0000";
 layers = (
 {
 anchors = (
@@ -42430,6 +42486,7 @@ unicode = 223;
 },
 {
 glyphname = t;
+lastChange = "2023-09-30 02:27:33 +0000";
 layers = (
 {
 anchors = (
@@ -42596,6 +42653,7 @@ unicode = 539;
 },
 {
 glyphname = u;
+lastChange = "2023-09-30 02:06:25 +0000";
 layers = (
 {
 anchors = (
@@ -42793,6 +42851,7 @@ unicode = 252;
 {
 color = 1;
 glyphname = ugrave;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -42885,6 +42944,7 @@ unicode = 367;
 },
 {
 glyphname = v;
+lastChange = "2023-09-30 01:56:03 +0000";
 layers = (
 {
 anchors = (
@@ -42979,6 +43039,7 @@ unicode = 118;
 },
 {
 glyphname = w;
+lastChange = "2023-09-30 02:02:08 +0000";
 layers = (
 {
 anchors = (
@@ -43151,6 +43212,7 @@ unicode = 7813;
 {
 color = 1;
 glyphname = wgrave;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -43183,6 +43245,7 @@ unicode = 7809;
 },
 {
 glyphname = x;
+lastChange = "2023-09-30 01:56:22 +0000";
 layers = (
 {
 anchors = (
@@ -43297,6 +43360,7 @@ unicode = 120;
 },
 {
 glyphname = y;
+lastChange = "2023-09-30 02:35:13 +0000";
 layers = (
 {
 anchors = (
@@ -43487,6 +43551,7 @@ unicode = 255;
 {
 color = 1;
 glyphname = ygrave;
+lastChange = "2023-09-30 02:38:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -43519,6 +43584,7 @@ unicode = 7923;
 },
 {
 glyphname = z;
+lastChange = "2023-09-30 01:47:06 +0000";
 layers = (
 {
 anchors = (
@@ -49579,6 +49645,7 @@ metricLeft = l.ss03;
 {
 color = 7;
 glyphname = m.cv09;
+lastChange = "2023-09-30 02:58:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -51056,6 +51123,7 @@ metricLeft = x.ss03;
 {
 color = 2;
 glyphname = a.fina;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -51124,6 +51192,7 @@ metricRight = b.ss03;
 {
 color = 2;
 glyphname = c.fina;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -51162,6 +51231,7 @@ metricRight = c;
 {
 color = 2;
 glyphname = d.fina;
+lastChange = "2023-09-30 02:47:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -51200,6 +51270,7 @@ metricRight = d.ss01;
 {
 color = 2;
 glyphname = e.fina;
+lastChange = "2023-09-30 02:16:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -51238,6 +51309,7 @@ metricRight = e;
 {
 color = 2;
 glyphname = f.fina;
+lastChange = "2023-09-30 02:04:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -51275,6 +51347,7 @@ metricRight = f.ss01;
 {
 color = 2;
 glyphname = g.fina;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -51305,6 +51378,7 @@ metricRight = g;
 {
 color = 2;
 glyphname = h.fina;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -51345,6 +51419,7 @@ metricRight = h.ss01;
 {
 color = 2;
 glyphname = i.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51383,6 +51458,7 @@ metricRight = i.ss01;
 {
 color = 2;
 glyphname = j.fina;
+lastChange = "2023-09-30 02:47:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -51413,6 +51489,7 @@ metricRight = j;
 {
 color = 2;
 glyphname = k.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51451,6 +51528,7 @@ metricRight = k.ss01;
 {
 color = 2;
 glyphname = l.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51489,6 +51567,7 @@ metricRight = l.ss01;
 {
 color = 2;
 glyphname = m.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51526,6 +51605,7 @@ metricRight = m.ss01;
 {
 color = 2;
 glyphname = n.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51563,6 +51643,7 @@ metricRight = n.ss01;
 {
 color = 2;
 glyphname = o.fina;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51601,6 +51682,7 @@ metricRight = o.ss01;
 {
 color = 2;
 glyphname = p.fina;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -51631,6 +51713,7 @@ metricRight = p;
 {
 color = 2;
 glyphname = q.fina;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51705,6 +51788,7 @@ metricRight = r.ss01;
 {
 color = 2;
 glyphname = s.fina;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -51735,6 +51819,7 @@ metricRight = s;
 {
 color = 2;
 glyphname = t.fina;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -51773,6 +51858,7 @@ metricRight = t.ss01;
 {
 color = 2;
 glyphname = u.fina;
+lastChange = "2023-09-30 02:48:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51886,6 +51972,7 @@ metricRight = w.ss01;
 {
 color = 2;
 glyphname = x.fina;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -51924,6 +52011,7 @@ metricRight = a.ss01;
 {
 color = 2;
 glyphname = y.fina;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -51983,6 +52071,7 @@ metricRight = z.ss03;
 {
 color = 4;
 glyphname = a.ss01;
+lastChange = "2023-09-30 02:48:18 +0000";
 layers = (
 {
 layerId = m01;
@@ -52134,6 +52223,7 @@ metricLeft = a;
 {
 color = 4;
 glyphname = d.ss01;
+lastChange = "2023-09-30 02:52:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -52285,6 +52375,7 @@ metricLeft = d;
 {
 color = 4;
 glyphname = f.ss01;
+lastChange = "2023-09-30 02:54:47 +0000";
 layers = (
 {
 background = {
@@ -52522,6 +52613,7 @@ metricLeft = f;
 {
 color = 4;
 glyphname = h.ss01;
+lastChange = "2023-09-30 02:47:44 +0000";
 layers = (
 {
 layerId = m01;
@@ -52655,6 +52747,7 @@ metricLeft = h;
 {
 color = 4;
 glyphname = i.ss01;
+lastChange = "2023-09-30 02:53:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -52781,6 +52874,7 @@ metricRight = a.ss01;
 {
 color = 4;
 glyphname = k.ss01;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 background = {
@@ -52972,6 +53066,7 @@ metricRight = a.ss01;
 {
 color = 4;
 glyphname = l.ss01;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -53064,6 +53159,7 @@ metricRight = a.ss01;
 {
 color = 4;
 glyphname = m.ss01;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -53238,6 +53334,7 @@ metricRight = a.ss01;
 {
 color = 4;
 glyphname = n.ss01;
+lastChange = "2023-09-30 02:50:51 +0000";
 layers = (
 {
 layerId = m01;
@@ -53371,6 +53468,7 @@ metricLeft = n;
 {
 color = 4;
 glyphname = o.ss01;
+lastChange = "2023-09-30 02:51:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -53490,6 +53588,7 @@ metricLeft = o;
 {
 color = 4;
 glyphname = q.ss01;
+lastChange = "2023-09-30 02:41:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -53637,6 +53736,7 @@ metricLeft = q;
 {
 color = 4;
 glyphname = r.ss01;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -53738,6 +53838,7 @@ metricLeft = r;
 {
 color = 4;
 glyphname = t.ss01;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -53866,6 +53967,7 @@ metricRight = t;
 {
 color = 4;
 glyphname = u.ss01;
+lastChange = "2023-09-30 02:48:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -53998,6 +54100,7 @@ metricRight = a.ss01;
 {
 color = 4;
 glyphname = v.ss01;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -54109,6 +54212,7 @@ metricLeft = v;
 {
 color = 4;
 glyphname = w.ss01;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -73454,6 +73558,7 @@ metricRight = z.ss02;
 {
 color = 9;
 glyphname = a.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -73901,6 +74006,7 @@ metricRight = a;
 {
 color = 9;
 glyphname = b.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -74460,6 +74566,7 @@ metricRight = b;
 {
 color = 9;
 glyphname = c.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -74747,6 +74854,7 @@ metricRight = c;
 {
 color = 9;
 glyphname = d.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -75316,6 +75424,7 @@ metricRight = d;
 {
 color = 9;
 glyphname = e.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -75683,6 +75792,7 @@ metricRight = e;
 {
 color = 9;
 glyphname = f.ss06;
+lastChange = "2023-09-30 02:04:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -76082,6 +76192,7 @@ metricRight = f;
 {
 color = 9;
 glyphname = g.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -76705,6 +76816,7 @@ metricRight = g;
 {
 color = 9;
 glyphname = h.ss06;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -77216,6 +77328,7 @@ metricRight = h;
 {
 color = 9;
 glyphname = i.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -77409,6 +77522,7 @@ metricRight = i;
 {
 color = 9;
 glyphname = j.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -77778,6 +77892,7 @@ metricRight = j;
 {
 color = 9;
 glyphname = k.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -78257,6 +78372,7 @@ metricRight = k;
 {
 color = 9;
 glyphname = l.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -78544,6 +78660,7 @@ metricRight = l;
 {
 color = 9;
 glyphname = m.ss06;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -79151,6 +79268,7 @@ metricRight = m;
 {
 color = 9;
 glyphname = n.ss06;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -79534,6 +79652,7 @@ metricRight = n;
 {
 color = 9;
 glyphname = o.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -79901,6 +80020,7 @@ metricRight = o;
 {
 color = 9;
 glyphname = p.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -80460,6 +80580,7 @@ metricRight = p;
 {
 color = 9;
 glyphname = q.ss06;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -81083,6 +81204,7 @@ metricRight = q;
 {
 color = 9;
 glyphname = r.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -81370,6 +81492,7 @@ metricRight = r;
 {
 color = 9;
 glyphname = s.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -81689,6 +81812,7 @@ metricRight = s;
 {
 color = 9;
 glyphname = t.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -82040,6 +82164,7 @@ metricRight = t;
 {
 color = 9;
 glyphname = u.ss06;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -82423,6 +82548,7 @@ metricRight = u;
 {
 color = 9;
 glyphname = v.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -82710,6 +82836,7 @@ metricRight = v;
 {
 color = 9;
 glyphname = w.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -83253,6 +83380,7 @@ metricRight = w;
 {
 color = 9;
 glyphname = x.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -83588,6 +83716,7 @@ metricRight = x;
 {
 color = 9;
 glyphname = y.ss06;
+lastChange = "2023-09-30 02:47:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -84147,6 +84276,7 @@ metricRight = y;
 {
 color = 9;
 glyphname = z.ss06;
+lastChange = "2023-09-30 02:04:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -84906,6 +85036,7 @@ metricRight = e.cv21;
 {
 color = 2;
 glyphname = e.cv09.fina;
+lastChange = "2023-09-30 02:16:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -84944,6 +85075,7 @@ metricRight = e;
 {
 color = 2;
 glyphname = e.cv10.fina;
+lastChange = "2023-09-30 02:16:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -84982,6 +85114,7 @@ metricRight = e;
 {
 color = 8;
 glyphname = ordfeminine;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -85007,6 +85140,7 @@ unicode = 170;
 {
 color = 8;
 glyphname = ordmasculine;
+lastChange = "2023-09-30 02:09:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -98191,6 +98325,7 @@ width = 749;
 },
 {
 glyphname = space;
+lastChange = "2023-09-30 02:09:30 +0000";
 layers = (
 {
 layerId = m01;
@@ -98207,6 +98342,7 @@ unicode = 32;
 },
 {
 glyphname = nbspace;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -98402,6 +98538,7 @@ unicode = 8203;
 },
 {
 glyphname = narrownbspace;
+lastChange = "2023-09-30 02:16:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -100252,6 +100389,7 @@ unicode = 40;
 },
 {
 glyphname = parenright;
+lastChange = "2023-09-30 02:14:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -106127,6 +106265,7 @@ width = 20;
 {
 export = 0;
 glyphname = _part.e;
+lastChange = "2023-09-30 02:57:01 +0000";
 layers = (
 {
 anchors = (
@@ -110388,6 +110527,7 @@ width = 886;
 color = 11;
 export = 0;
 glyphname = _part.e.alt2;
+lastChange = "2023-09-30 02:56:48 +0000";
 layers = (
 {
 anchors = (
@@ -110793,6 +110933,7 @@ width = 886;
 color = 3;
 export = 0;
 glyphname = _part.e.in;
+lastChange = "2023-09-30 02:57:58 +0000";
 layers = (
 {
 anchors = (
@@ -125848,18 +125989,51 @@ instances = (
 axesValues = (
 400
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = wght;
+Location = 400;
+}
+);
+}
+);
 name = Regular;
 },
 {
 axesValues = (
 500
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = wght;
+Location = 500;
+}
+);
+}
+);
 name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-620
+600
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = wght;
+Location = 600;
+}
+);
+}
 );
 name = SemiBold;
 weightClass = 600;
@@ -125867,6 +126041,17 @@ weightClass = 600;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = wght;
+Location = 700;
+}
+);
+}
 );
 isBold = 1;
 linkStyle = Regular;
@@ -125968,7 +126153,7 @@ value = "Google for Education";
 },
 {
 key = vendorID;
-value = GOOG;
+value = STC;
 }
 );
 settings = {
