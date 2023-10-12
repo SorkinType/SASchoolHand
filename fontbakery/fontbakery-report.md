@@ -61,403 +61,8 @@ fontbakery version: 0.9.2
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 3418, but got 2642 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2925, but got 2642 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 946, but got 926 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scedilla	Expected: 1 or 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: uni1E9E	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
- [code: no-contour]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
 
 
@@ -476,12 +81,12 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, syriac, canadian-aboriginal, tifinagh, malayalam, old-permic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, math, malayalam, canadian-aboriginal, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -662,6 +267,53 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 	- tildecomb.001
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -672,7 +324,7 @@ Width = 813:
 less, greater
 
 Width = 890:
-equal, notequal
+notequal, equal
 
 Width = 893:
 plusminus
@@ -684,7 +336,7 @@ Width = 886:
 approxequal
 
 Width = 898:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -739,23 +391,105 @@ greaterequal, lessequal
 
 	* yen (U+00A5): X=314.5,Y=1.0 (should be at baseline 0?)
 
+	* section (U+00A7): X=589.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* section (U+00A7): X=837.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* paragraph (U+00B6): X=1165.0,Y=2006.0 (should be at cap-height 2008?)
+
+	* paragraph (U+00B6): X=1569.0,Y=2006.0 (should be at cap-height 2008?)
+
 	* questiondown (U+00BF): X=491.0,Y=-1.0 (should be at baseline 0?)
 
 	* questiondown (U+00BF): X=491.0,Y=-1.0 (should be at baseline 0?)
 
 	* Agrave (U+00C0): X=1254.0,Y=1.0 (should be at baseline 0?)
 
+	* Aacute (U+00C1): X=1254.0,Y=1.0 (should be at baseline 0?)
+
+	* Aacute (U+00C1): X=1180.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Acircumflex (U+00C2): X=1254.0,Y=1.0 (should be at baseline 0?)
+
 	* Atilde (U+00C3): X=1254.0,Y=1.0 (should be at baseline 0?)
 
-	* dcaron (U+010F): X=1090.0,Y=2007.0 (should be at cap-height 2008?)
+	* Adieresis (U+00C4): X=1254.0,Y=1.0 (should be at baseline 0?)
 
-	* iogonek (U+012F): X=168.5,Y=1.0 (should be at baseline 0?)
+	* Aring (U+00C5): X=1254.0,Y=1.0 (should be at baseline 0?)
 
-	* lcaron (U+013E): X=508.0,Y=2007.0 (should be at cap-height 2008?)
+	* Eacute (U+00C9): X=1165.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Iacute (U+00CD): X=791.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Oacute (U+00D3): X=1206.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Uacute (U+00DA): X=1259.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Yacute (U+00DD): X=534.0,Y=1.0 (should be at baseline 0?)
+
+	* Yacute (U+00DD): X=1396.0,Y=2641.0 (should be at ascender 2642?)
+
+	* germandbls (U+00DF): X=1022.5,Y=2007.0 (should be at cap-height 2008?)
+
+	* oslash (U+00F8): X=321.0,Y=-2.0 (should be at baseline 0?)
+
+	* Amacron (U+0100): X=1254.0,Y=1.0 (should be at baseline 0?)
+
+	* Abreve (U+0102): X=1254.0,Y=1.0 (should be at baseline 0?)
+
+	* Aogonek (U+0104): X=1254.0,Y=1.0 (should be at baseline 0?)
+
+	* Cacute (U+0106): X=1146.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Ccaron (U+010C): X=739.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Dcaron (U+010E): X=790.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Ecaron (U+011A): X=759.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Lacute (U+0139): X=1127.0,Y=2641.0 (should be at ascender 2642?)
+
+	* lacute (U+013A): X=694.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Nacute (U+0143): X=1254.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Ncaron (U+0147): X=847.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Eng (U+014A): X=238.0,Y=-1.0 (should be at baseline 0?)
+
+	* Eng (U+014A): X=457.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Eng (U+014A): X=238.0,Y=-1.0 (should be at baseline 0?)
+
+	* eng (U+014B): X=857.0,Y=1.0 (should be at baseline 0?)
+
+	* Racute (U+0154): X=1162.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Rcaron (U+0158): X=755.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Sacute (U+015A): X=1080.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Scaron (U+0160): X=674.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Tcaron (U+0164): X=656.0,Y=2640.0 (should be at ascender 2642?)
 
 	* tcaron (U+0165): X=890.0,Y=2007.0 (should be at cap-height 2008?)
 
-	* uni0328 (U+0328): X=145.5,Y=1.0 (should be at baseline 0?)
+	* Ycircumflex (U+0176): X=534.0,Y=1.0 (should be at baseline 0?)
+
+	* Ydieresis (U+0178): X=534.0,Y=1.0 (should be at baseline 0?)
+
+	* Zacute (U+0179): X=1146.0,Y=2641.0 (should be at ascender 2642?)
+
+	* Zcaron (U+017D): X=740.0,Y=2640.0 (should be at ascender 2642?)
+
+	* Wacute (U+1E82): X=1782.0,Y=2641.0 (should be at ascender 2642?)
+
+	* uni1E9E (U+1E9E): X=461.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* uni1E9E (U+1E9E): X=1626.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* uni1E9E (U+1E9E): X=708.0,Y=1.0 (should be at baseline 0?)
 
 	* Ygrave (U+1EF2): X=534.0,Y=1.0 (should be at baseline 0?)
 
@@ -770,169 +504,23 @@ greaterequal, lessequal
 	* ellipsis (U+2026): X=1044.0,Y=-2.0 (should be at baseline 0?)
 
 	* ellipsis (U+2026): X=1044.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
+* ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* numbersign (U+0023) contains a short segment B<<1.0,533.0>-<-2.0,565.0>-<21.0,587.5>>
+	* AE (U+00C6): L<<1074.0,1764.0>--<975.0,1514.0>> -> L<<975.0,1514.0>--<789.0,1146.0>>
 
-	* five (U+0035) contains a short segment B<<48.0,290.0>-<67.0,290.0>-<85.0,277.0>>
+	* AE (U+00C6): L<<1107.0,1146.0>--<1079.0,1502.0>> -> L<<1079.0,1502.0>--<1074.0,1764.0>>
 
-	* five (U+0035) contains a short segment B<<85.0,277.0>-<103.0,264.0>-<121.0,250.0>>
+	* oslash (U+00F8): L<<293.0,255.0>--<436.0,554.0>> -> L<<436.0,554.0>--<594.0,911.0>>
 
-	* at (U+0040) contains a short segment B<<1193.0,1154.0>-<1205.0,1201.0>-<1232.0,1220.0>>
-
-	* at (U+0040) contains a short segment B<<1232.0,1220.0>-<1259.0,1239.0>-<1308.0,1239.0>>
-
-	* at (U+0040) contains a short segment B<<1121.0,-43.5>-<1162.0,-53.0>-<1175.0,-95.0>>
-
-	* at (U+0040) contains a short segment B<<1175.0,-95.0>-<1186.0,-136.0>-<1166.5,-168.0>>
-
-	* G (U+0047) contains a short segment B<<1370.0,1050.5>-<1389.0,1082.0>-<1409.5,1093.5>>
-
-	* G (U+0047) contains a short segment B<<1409.5,1093.5>-<1430.0,1105.0>-<1465.0,1105.0>>
-
-	* H (U+0048) contains a short segment B<<1372.0,75.0>-<1369.0,46.0>-<1347.5,23.0>>
-
-	* K (U+004B) contains a short segment B<<1444.0,1998.5>-<1467.0,2008.0>-<1491.0,2008.0>>
-
-	* M (U+004D) contains a short segment B<<46.0,0.0>-<0.0,0.0>-<-24.0,34.0>>
-
-	* M (U+004D) contains a short segment B<<847.0,1930.0>-<865.0,1967.0>-<886.0,1987.5>>
-
-	* M (U+004D) contains a short segment B<<886.0,1987.5>-<907.0,2008.0>-<951.0,2008.0>>
-
-	* M (U+004D) contains a short segment B<<951.0,2008.0>-<1004.0,2008.0>-<1025.0,1987.0>>
-
-	* M (U+004D) contains a short segment B<<1025.0,1987.0>-<1046.0,1966.0>-<1050.0,1934.0>>
-
-	* M (U+004D) contains a short segment B<<1972.0,1925.0>-<1989.0,1959.0>-<2013.5,1983.5>>
-
-	* M (U+004D) contains a short segment B<<2013.5,1983.5>-<2038.0,2008.0>-<2080.0,2008.0>>
-
-	* M (U+004D) contains a short segment B<<2080.0,2008.0>-<2143.0,2008.0>-<2158.5,1984.5>>
-
-	* M (U+004D) contains a short segment B<<2158.5,1984.5>-<2174.0,1961.0>-<2180.0,1914.0>>
-
-	* M (U+004D) contains a short segment B<<2384.0,90.0>-<2389.0,50.0>-<2366.5,25.0>>
-
-	* M (U+004D) contains a short segment B<<2366.5,25.0>-<2344.0,0.0>-<2301.0,0.0>>
-
-	* M (U+004D) contains a short segment B<<2301.0,0.0>-<2250.0,0.0>-<2226.0,26.0>>
-
-	* M (U+004D) contains a short segment B<<2226.0,26.0>-<2202.0,52.0>-<2198.0,83.0>>
-
-	* M (U+004D) contains a short segment B<<1286.0,77.0>-<1276.0,56.0>-<1252.0,28.0>>
-
-	* M (U+004D) contains a short segment B<<1252.0,28.0>-<1228.0,0.0>-<1173.0,0.0>>
-
-	* M (U+004D) contains a short segment B<<1173.0,0.0>-<1120.0,0.0>-<1099.5,25.0>>
-
-	* M (U+004D) contains a short segment B<<1099.5,25.0>-<1079.0,50.0>-<1075.0,82.0>>
-
-	* M (U+004D) contains a short segment B<<163.0,80.0>-<142.0,36.0>-<108.5,18.0>>
-
-	* M (U+004D) contains a short segment B<<108.5,18.0>-<75.0,0.0>-<46.0,0.0>>
-
-	* N (U+004E) contains a short segment B<<1372.0,85.0>-<1368.0,45.0>-<1352.0,22.5>>
-
-	* W (U+0057) contains a short segment B<<745.0,0.0>-<706.0,0.0>-<679.0,24.5>>
-
-	* W (U+0057) contains a short segment B<<679.0,24.5>-<652.0,49.0>-<645.0,94.0>>
-
-	* W (U+0057) contains a short segment B<<447.0,2008.0>-<501.0,2008.0>-<524.5,1984.0>>
-
-	* W (U+0057) contains a short segment B<<524.5,1984.0>-<548.0,1960.0>-<552.0,1927.0>>
-
-	* W (U+0057) contains a short segment B<<1383.0,1927.0>-<1396.0,1960.0>-<1419.5,1984.0>>
-
-	* W (U+0057) contains a short segment B<<1419.5,1984.0>-<1443.0,2008.0>-<1490.0,2008.0>>
-
-	* W (U+0057) contains a short segment B<<1490.0,2008.0>-<1547.0,2008.0>-<1568.5,1985.5>>
-
-	* W (U+0057) contains a short segment B<<1568.5,1985.5>-<1590.0,1963.0>-<1595.0,1927.0>>
-
-	* W (U+0057) contains a short segment B<<2436.0,1929.0>-<2451.0,1968.0>-<2474.5,1988.0>>
-
-	* W (U+0057) contains a short segment B<<2474.5,1988.0>-<2498.0,2008.0>-<2549.0,2008.0>>
-
-	* W (U+0057) contains a short segment B<<2549.0,2008.0>-<2596.0,2008.0>-<2618.5,1975.0>>
-
-	* W (U+0057) contains a short segment B<<2618.5,1975.0>-<2641.0,1942.0>-<2622.0,1895.0>>
-
-	* W (U+0057) contains a short segment B<<1897.0,90.0>-<1879.0,46.0>-<1857.5,23.0>>
-
-	* W (U+0057) contains a short segment B<<1857.5,23.0>-<1836.0,0.0>-<1792.0,0.0>>
-
-	* W (U+0057) contains a short segment B<<1792.0,0.0>-<1750.0,0.0>-<1725.0,24.5>>
-
-	* W (U+0057) contains a short segment B<<1725.0,24.5>-<1700.0,49.0>-<1694.0,88.0>>
-
-	* W (U+0057) contains a short segment B<<851.0,92.0>-<836.0,52.0>-<812.5,26.0>>
-
-	* W (U+0057) contains a short segment B<<812.5,26.0>-<789.0,0.0>-<745.0,0.0>>
-
-	* Ntilde (U+00D1) contains a short segment B<<1372.0,85.0>-<1368.0,45.0>-<1352.0,22.5>>
-
-	* Wgrave (U+1E80) contains a short segment B<<745.0,0.0>-<706.0,0.0>-<679.0,24.5>>
-
-	* Wgrave (U+1E80) contains a short segment B<<679.0,24.5>-<652.0,49.0>-<645.0,94.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<447.0,2008.0>-<501.0,2008.0>-<524.5,1984.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<524.5,1984.0>-<548.0,1960.0>-<552.0,1927.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1383.0,1927.0>-<1396.0,1960.0>-<1419.5,1984.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1419.5,1984.0>-<1443.0,2008.0>-<1490.0,2008.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1490.0,2008.0>-<1547.0,2008.0>-<1568.5,1985.5>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1568.5,1985.5>-<1590.0,1963.0>-<1595.0,1927.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<2436.0,1929.0>-<2451.0,1968.0>-<2474.5,1988.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<2474.5,1988.0>-<2498.0,2008.0>-<2549.0,2008.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<2549.0,2008.0>-<2596.0,2008.0>-<2618.5,1975.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<2618.5,1975.0>-<2641.0,1942.0>-<2622.0,1895.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1897.0,90.0>-<1879.0,46.0>-<1857.5,23.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1857.5,23.0>-<1836.0,0.0>-<1792.0,0.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1792.0,0.0>-<1750.0,0.0>-<1725.0,24.5>>
-
-	* Wgrave (U+1E80) contains a short segment B<<1725.0,24.5>-<1700.0,49.0>-<1694.0,88.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<851.0,92.0>-<836.0,52.0>-<812.5,26.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<812.5,26.0>-<789.0,0.0>-<745.0,0.0>>
-
-	* Euro (U+20AC) contains a short segment B<<39.5,653.0>-<18.0,678.0>-<18.0,709.0>>
-
-	* Euro (U+20AC) contains a short segment B<<18.0,709.0>-<18.0,739.0>-<39.5,764.5>>
-
-	* Euro (U+20AC) contains a short segment B<<84.5,1080.0>-<63.0,1105.0>-<63.0,1135.0>>
-
-	* Euro (U+20AC) contains a short segment B<<63.0,1135.0>-<63.0,1164.0>-<84.5,1190.0>>
-
-	* Euro (U+20AC) contains a short segment B<<929.0,1190.5>-<951.0,1165.0>-<951.0,1136.0>>
-
-	* Euro (U+20AC) contains a short segment B<<951.0,1136.0>-<951.0,1107.0>-<929.0,1081.0>>
-
-	* Euro (U+20AC) contains a short segment B<<561.0,1055.0>-<559.0,1043.0>-<557.0,1031.0>>
-
-	* Euro (U+20AC) contains a short segment B<<885.0,765.0>-<906.0,740.0>-<906.0,711.0>>
-
-	* Euro (U+20AC) contains a short segment B<<906.0,711.0>-<906.0,682.0>-<884.5,655.0>> [code: found-short-segments]
+	* oslash (U+00F8): L<<691.0,807.0>--<540.0,502.0>> -> L<<540.0,502.0>--<390.0,157.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[20] EduSABeginner-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] EduSABeginner-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -991,403 +579,8 @@ greaterequal, lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 3418, but got 2642 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2925, but got 2642 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 946, but got 926 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scedilla	Expected: 1 or 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: uni1E9E	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
- [code: no-contour]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
 
 
@@ -1406,12 +599,12 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, syriac, canadian-aboriginal, tifinagh, malayalam, old-permic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, math, malayalam, canadian-aboriginal, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1592,6 +785,53 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 	- tildecomb.001
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -1602,7 +842,7 @@ Width = 854:
 less
 
 Width = 940:
-plusminus, equal, notequal
+plusminus, notequal, equal
 
 Width = 856:
 greater
@@ -1614,7 +854,7 @@ Width = 924:
 approxequal
 
 Width = 942:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1663,9 +903,35 @@ greaterequal, lessequal
 
 	* yen (U+00A5): X=304.5,Y=1.5 (should be at baseline 0?)
 
+	* paragraph (U+00B6): X=1222.0,Y=2007.0 (should be at cap-height 2008?)
+
+	* paragraph (U+00B6): X=1680.0,Y=2007.0 (should be at cap-height 2008?)
+
 	* questiondown (U+00BF): X=501.0,Y=-2.0 (should be at baseline 0?)
 
 	* questiondown (U+00BF): X=501.0,Y=-2.0 (should be at baseline 0?)
+
+	* Yacute (U+00DD): X=520.0,Y=1.5 (should be at baseline 0?)
+
+	* Abreve (U+0102): X=1269.0,Y=2644.0 (should be at ascender 2642?)
+
+	* Gbreve (U+011E): X=1390.0,Y=2644.0 (should be at ascender 2642?)
+
+	* Eng (U+014A): X=257.0,Y=-2.0 (should be at baseline 0?)
+
+	* Eng (U+014A): X=472.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Eng (U+014A): X=257.0,Y=-2.0 (should be at baseline 0?)
+
+	* eng (U+014B): X=184.0,Y=-1.0 (should be at baseline 0?)
+
+	* eng (U+014B): X=1060.0,Y=2.0 (should be at baseline 0?)
+
+	* Ubreve (U+016C): X=1367.0,Y=2644.0 (should be at ascender 2642?)
+
+	* Ycircumflex (U+0176): X=520.0,Y=1.5 (should be at baseline 0?)
+
+	* Ydieresis (U+0178): X=520.0,Y=1.5 (should be at baseline 0?)
 
 	* Ygrave (U+1EF2): X=520.0,Y=1.5 (should be at baseline 0?)
 
@@ -1719,6 +985,32 @@ greaterequal, lessequal
 
 	* yen (U+00A5) contains a short segment L<<287.0,306.0>--<264.0,306.0>>
 
+	* Hbar (U+0126) contains a short segment L<<1702.0,1506.0>--<1736.0,1506.0>>
+
+	* lslash (U+0142) contains a short segment L<<161.0,737.0>--<137.0,729.0>>
+
+	* Eng (U+014A) contains a short segment B<<725.0,-361.0>-<758.0,-361.0>-<771.5,-360.5>>
+
+	* Eng (U+014A) contains a short segment B<<771.5,-360.5>-<785.0,-360.0>-<793.0,-358.5>>
+
+	* Eng (U+014A) contains a short segment B<<793.0,-358.5>-<801.0,-357.0>-<819.0,-356.0>>
+
+	* Eng (U+014A) contains a short segment B<<1063.0,-202.0>-<1084.0,-172.0>-<1097.0,-143.0>>
+
+	* Eng (U+014A) contains a short segment B<<1097.0,-143.0>-<1110.0,-114.0>-<1120.0,-72.5>>
+
+	* eng (U+014B) contains a short segment B<<898.5,873.0>-<889.0,900.0>-<860.0,900.0>>
+
+	* eng (U+014B) contains a short segment B<<179.0,972.0>-<182.0,992.0>-<194.5,1018.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<1608.0,1980.0>-<1638.0,1952.0>-<1645.0,1907.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
+
 	* Wgrave (U+1E80) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
 
 	* Wgrave (U+1E80) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
@@ -1727,12 +1019,42 @@ greaterequal, lessequal
 
 	* Wgrave (U+1E80) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
 
+	* Wacute (U+1E82) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
+
+	* Wacute (U+1E82) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
+
+	* Wacute (U+1E82) contains a short segment B<<1608.0,1980.0>-<1638.0,1952.0>-<1645.0,1907.0>>
+
+	* Wacute (U+1E82) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<569.5,1978.5>-<604.0,1949.0>-<610.0,1907.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<1374.0,1909.0>-<1390.0,1950.0>-<1419.5,1979.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<1608.0,1980.0>-<1638.0,1952.0>-<1645.0,1907.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<2419.0,1917.0>-<2433.0,1952.0>-<2465.5,1980.0>>
+
+	* uni1E9E (U+1E9E) contains a short segment B<<1760.0,1943.0>-<1778.0,1913.0>-<1775.5,1877.5>>
+
+	* uni1E9E (U+1E9E) contains a short segment B<<1775.5,1877.5>-<1773.0,1842.0>-<1751.0,1814.0>>
+
 	* Euro (U+20AC) contains a short segment L<<609.0,1028.0>--<609.0,1027.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* AE (U+00C6): L<<1100.0,1154.0>--<1079.0,1442.0>> -> L<<1079.0,1442.0>--<1078.0,1688.0>>
+
+	* oslash (U+00F8): L<<330.0,319.0>--<441.0,548.0>> -> L<<441.0,548.0>--<580.0,870.0>>
+
+	* oslash (U+00F8): L<<686.0,757.0>--<552.0,498.0>> -> L<<552.0,498.0>--<431.0,207.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[19] EduSABeginner-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] EduSABeginner-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1791,403 +1113,8 @@ greaterequal, lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 3418, but got 2642 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2925, but got 2642 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 946, but got 926 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scedilla	Expected: 1 or 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: uni1E9E	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
- [code: no-contour]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
 
 
@@ -2206,12 +1133,12 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, syriac, canadian-aboriginal, tifinagh, malayalam, old-permic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, math, malayalam, canadian-aboriginal, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -2385,6 +1312,53 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- tildecomb.001
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -2395,7 +1369,7 @@ Width = 896:
 less
 
 Width = 991:
-equal, notequal
+notequal, equal
 
 Width = 898:
 greater
@@ -2407,7 +1381,7 @@ Width = 963:
 approxequal
 
 Width = 987:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -2429,6 +1403,16 @@ greaterequal, lessequal
 	* braceright (U+007D): X=240.5,Y=2009.5 (should be at cap-height 2008?)
 
 	* yen (U+00A5): X=322.0,Y=0.5 (should be at baseline 0?)
+
+	* Yacute (U+00DD): X=533.0,Y=0.5 (should be at baseline 0?)
+
+	* Eng (U+014A): X=488.0,Y=2010.0 (should be at cap-height 2008?)
+
+	* eng (U+014B): X=200.0,Y=-1.0 (should be at baseline 0?)
+
+	* Ycircumflex (U+0176): X=533.0,Y=0.5 (should be at baseline 0?)
+
+	* Ydieresis (U+0178): X=533.0,Y=0.5 (should be at baseline 0?)
 
 	* Ygrave (U+1EF2): X=533.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -2468,9 +1452,31 @@ greaterequal, lessequal
 
 	* yen (U+00A5) contains a short segment L<<1017.0,968.0>--<1021.0,968.0>>
 
+	* Oslash (U+00D8) contains a short segment L<<826.0,259.0>--<829.0,259.0>>
+
+	* eth (U+00F0) contains a short segment B<<725.0,1081.0>-<734.0,1081.0>-<746.5,1080.0>>
+
+	* oslash (U+00F8) contains a short segment B<<471.0,259.0>-<472.0,259.0>-<477.0,259.0>>
+
 	* yacute (U+00FD) contains a short segment B<<398.5,274.0>-<409.0,259.0>-<434.0,259.0>>
 
 	* ydieresis (U+00FF) contains a short segment B<<398.5,274.0>-<409.0,259.0>-<434.0,259.0>>
+
+	* Lslash (U+0141) contains a short segment L<<161.0,553.0>--<156.0,550.0>>
+
+	* Eng (U+014A) contains a short segment B<<1384.0,-201.0>-<1375.0,-231.0>-<1361.5,-257.0>>
+
+	* Eng (U+014A) contains a short segment B<<1361.5,-257.0>-<1348.0,-283.0>-<1327.0,-320.0>>
+
+	* Eng (U+014A) contains a short segment B<<774.5,-302.0>-<814.0,-302.0>-<823.0,-302.0>>
+
+	* Eng (U+014A) contains a short segment B<<823.0,-302.0>-<832.0,-302.0>-<831.5,-301.5>>
+
+	* Eng (U+014A) contains a short segment B<<831.5,-301.5>-<831.0,-301.0>-<843.0,-300.0>>
+
+	* Eng (U+014A) contains a short segment B<<1068.0,-167.0>-<1085.0,-147.0>-<1096.0,-126.0>>
+
+	* Eng (U+014A) contains a short segment B<<1096.0,-126.0>-<1107.0,-105.0>-<1115.5,-66.5>>
 
 	* sacute (U+015B) contains a short segment B<<522.0,295.0>-<522.0,306.0>-<515.0,318.0>>
 
@@ -2478,20 +1484,34 @@ greaterequal, lessequal
 
 	* scaron (U+0161) contains a short segment B<<522.0,295.0>-<522.0,306.0>-<515.0,318.0>>
 
+	* Wcircumflex (U+0174) contains a short segment B<<2709.5,1906.0>-<2720.0,1864.0>-<2704.0,1826.0>>
+
 	* ycircumflex (U+0177) contains a short segment B<<398.5,274.0>-<409.0,259.0>-<434.0,259.0>>
 
 	* uni0219 (U+0219) contains a short segment B<<522.0,295.0>-<522.0,306.0>-<515.0,318.0>>
 
 	* Wgrave (U+1E80) contains a short segment B<<2709.5,1906.0>-<2720.0,1864.0>-<2704.0,1826.0>>
 
+	* Wacute (U+1E82) contains a short segment B<<2709.5,1906.0>-<2720.0,1864.0>-<2704.0,1826.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<2709.5,1906.0>-<2720.0,1864.0>-<2704.0,1826.0>>
+
 	* ygrave (U+1EF3) contains a short segment B<<398.5,274.0>-<409.0,259.0>-<434.0,259.0>>
 
 	* notequal (U+2260) contains a short segment L<<153.0,372.0>--<143.0,372.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* AE (U+00C6): L<<1094.0,1161.0>--<1078.0,1383.0>> -> L<<1078.0,1383.0>--<1081.0,1613.0>>
+
+	* oslash (U+00F8): L<<371.0,391.0>--<446.0,543.0>> -> L<<446.0,543.0>--<564.0,824.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><br></div></details><details><summary><b>[19] EduSABeginner-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] EduSABeginner-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -2550,403 +1570,8 @@ greaterequal, lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 3418, but got 2642 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2925, but got 2642 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 946, but got 926 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scedilla	Expected: 1 or 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: uni1E9E	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Aacute	Expected: 3
-
-	- Glyph name: Abreve	Expected: 3
-
-	- Glyph name: Acircumflex	Expected: 3
-
-	- Glyph name: Adieresis	Expected: 4
-
-	- Glyph name: Amacron	Expected: 3
-
-	- Glyph name: Aogonek	Expected: 2 or 3
-
-	- Glyph name: Aring	Expected: 3 or 4
-
-	- Glyph name: Cacute	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Dcaron	Expected: 3
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: Eacute	Expected: 2
-
-	- Glyph name: Ecaron	Expected: 2
-
-	- Glyph name: Ecircumflex	Expected: 2
-
-	- Glyph name: Edieresis	Expected: 3
-
-	- Glyph name: Edotaccent	Expected: 2
-
-	- Glyph name: Emacron	Expected: 2
-
-	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: Eogonek	Expected: 1 or 2
-
-	- Glyph name: Eth	Expected: 2
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
-	- Glyph name: Hbar	Expected: 2
-
-	- Glyph name: Iacute	Expected: 2
-
-	- Glyph name: Icircumflex	Expected: 2
-
-	- Glyph name: Idieresis	Expected: 3
-
-	- Glyph name: Idotaccent	Expected: 2
-
-	- Glyph name: Imacron	Expected: 2
-
-	- Glyph name: Iogonek	Expected: 1 or 2
-
-	- Glyph name: Lacute	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
-
-	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: Nacute	Expected: 2
-
-	- Glyph name: Ncaron	Expected: 2
-
-	- Glyph name: OE	Expected: 2
-
-	- Glyph name: Oacute	Expected: 3
-
-	- Glyph name: Ocircumflex	Expected: 3
-
-	- Glyph name: Odieresis	Expected: 4
-
-	- Glyph name: Ohungarumlaut	Expected: 4
-
-	- Glyph name: Omacron	Expected: 3
-
-	- Glyph name: Oslash	Expected: 2 or 3
-
-	- Glyph name: Racute	Expected: 3
-
-	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: Sacute	Expected: 2
-
-	- Glyph name: Scaron	Expected: 2
-
-	- Glyph name: Tcaron	Expected: 2
-
-	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: Uacute	Expected: 2
-
-	- Glyph name: Ubreve	Expected: 2
-
-	- Glyph name: Ucircumflex	Expected: 2
-
-	- Glyph name: Udieresis	Expected: 3
-
-	- Glyph name: Uhungarumlaut	Expected: 3
-
-	- Glyph name: Umacron	Expected: 2
-
-	- Glyph name: Uogonek	Expected: 1
-
-	- Glyph name: Uring	Expected: 3
-
-	- Glyph name: Wacute	Expected: 2
-
-	- Glyph name: Wcircumflex	Expected: 2
-
-	- Glyph name: Wdieresis	Expected: 3
-
-	- Glyph name: Yacute	Expected: 2
-
-	- Glyph name: Ycircumflex	Expected: 2
-
-	- Glyph name: Ydieresis	Expected: 3
-
-	- Glyph name: Zacute	Expected: 2
-
-	- Glyph name: Zcaron	Expected: 2
-
-	- Glyph name: Zdotaccent	Expected: 2
-
-	- Glyph name: ae	Expected: 3
-
-	- Glyph name: dcroat	Expected: 2
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: eth	Expected: 2
-
-	- Glyph name: germandbls	Expected: 1
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: hbar	Expected: 1
-
-	- Glyph name: lslash	Expected: 1
-
-	- Glyph name: oe	Expected: 3
-
-	- Glyph name: oslash	Expected: 3
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: section	Expected: 2
-
-	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: uni0122	Expected: 2
-
-	- Glyph name: uni0136	Expected: 2 or 3
-
-	- Glyph name: uni0137	Expected: 2 or 3
-
-	- Glyph name: uni013B	Expected: 2
-
-	- Glyph name: uni0145	Expected: 2
-
-	- Glyph name: uni0156	Expected: 3
-
-	- Glyph name: uni0218	Expected: 2
-
-	- Glyph name: uni021A	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
- [code: no-contour]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
 
 
@@ -2965,12 +1590,12 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, syriac, canadian-aboriginal, tifinagh, malayalam, old-permic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, math, malayalam, canadian-aboriginal, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -3136,6 +1761,53 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- tildecomb.001
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -3146,7 +1818,7 @@ Width = 771:
 less, greater
 
 Width = 839:
-equal, notequal
+notequal, equal
 
 Width = 845:
 plusminus
@@ -3158,7 +1830,7 @@ Width = 847:
 approxequal
 
 Width = 853:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3197,6 +1869,10 @@ greaterequal, lessequal
 
 	* yen (U+00A5): X=288.0,Y=1.0 (should be at baseline 0?)
 
+	* section (U+00A7): X=566.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* section (U+00A7): X=828.0,Y=2009.0 (should be at cap-height 2008?)
+
 	* registered (U+00AE): X=1217.0,Y=2010.0 (should be at cap-height 2008?)
 
 	* registered (U+00AE): X=402.5,Y=2010.0 (should be at cap-height 2008?)
@@ -3205,27 +1881,119 @@ greaterequal, lessequal
 
 	* Agrave (U+00C0): X=1245.0,Y=1.0 (should be at baseline 0?)
 
+	* Aacute (U+00C1): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Acircumflex (U+00C2): X=1245.0,Y=1.0 (should be at baseline 0?)
+
 	* Atilde (U+00C3): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Adieresis (U+00C4): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Aring (U+00C5): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Aring (U+00C5): X=928.5,Y=2640.5 (should be at ascender 2642?)
+
+	* Ccedilla (U+00C7): X=1037.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Ccedilla (U+00C7): X=511.0,Y=-2.0 (should be at baseline 0?)
 
 	* Ograve (U+00D2): X=923.0,Y=2009.0 (should be at cap-height 2008?)
 
+	* Oacute (U+00D3): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Ocircumflex (U+00D4): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
 	* Otilde (U+00D5): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Odieresis (U+00D6): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Oslash (U+00D8): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Yacute (U+00DD): X=512.0,Y=1.0 (should be at baseline 0?)
+
+	* germandbls (U+00DF): X=195.0,Y=-1.0 (should be at baseline 0?)
+
+	* germandbls (U+00DF): X=1019.0,Y=2009.5 (should be at cap-height 2008?)
+
+	* germandbls (U+00DF): X=195.0,Y=-1.0 (should be at baseline 0?)
 
 	* ccedilla (U+00E7): X=311.0,Y=-2.0 (should be at baseline 0?)
 
-	* iogonek (U+012F): X=282.0,Y=-2.0 (should be at baseline 0?)
+	* oslash (U+00F8): X=300.0,Y=2.0 (should be at baseline 0?)
+
+	* Amacron (U+0100): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Abreve (U+0102): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Aogonek (U+0104): X=1245.0,Y=1.0 (should be at baseline 0?)
+
+	* Cacute (U+0106): X=1037.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Cdotaccent (U+010A): X=1037.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Ccaron (U+010C): X=1037.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Gbreve (U+011E): X=1097.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Gdotaccent (U+0120): X=1097.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* uni0122 (U+0122): X=1097.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* iogonek (U+012F): X=230.0,Y=-2.0 (should be at baseline 0?)
+
+	* lcaron (U+013E): X=733.0,Y=2010.0 (should be at cap-height 2008?)
+
+	* eng (U+014B): X=191.5,Y=2.0 (should be at baseline 0?)
+
+	* Omacron (U+014C): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Ohungarumlaut (U+0150): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* OE (U+0152): X=923.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Sacute (U+015A): X=829.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Scedilla (U+015E): X=829.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Scedilla (U+015E): X=418.0,Y=-2.0 (should be at baseline 0?)
 
 	* scedilla (U+015F): X=243.0,Y=-2.0 (should be at baseline 0?)
 
+	* Scaron (U+0160): X=829.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* Uring (U+016E): X=988.5,Y=2640.5 (should be at ascender 2642?)
+
+	* Ycircumflex (U+0176): X=512.0,Y=1.0 (should be at baseline 0?)
+
+	* Ydieresis (U+0178): X=512.0,Y=1.0 (should be at baseline 0?)
+
+	* uni0218 (U+0218): X=829.0,Y=2009.0 (should be at cap-height 2008?)
+
 	* uni0327 (U+0327): X=-40.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0328 (U+0328): X=313.0,Y=-2.0 (should be at baseline 0?)
+	* uni1E9E (U+1E9E): X=438.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* uni1E9E (U+1E9E): X=1608.0,Y=2009.0 (should be at cap-height 2008?)
+
+	* uni1E9E (U+1E9E): X=670.0,Y=1.0 (should be at baseline 0?)
 
 	* Ygrave (U+1EF2): X=512.0,Y=1.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=1139.0,Y=2009.0 (should be at cap-height 2008?)
 
 	* Euro (U+20AC): X=853.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* AE (U+00C6): L<<1071.0,1839.0>--<963.0,1579.0>> -> L<<963.0,1579.0>--<744.0,1139.0>>
+
+	* AE (U+00C6): L<<1113.0,1139.0>--<1080.0,1561.0>> -> L<<1080.0,1561.0>--<1071.0,1839.0>>
+
+	* oslash (U+00F8): L<<259.0,194.0>--<431.0,559.0>> -> L<<431.0,559.0>--<608.0,950.0>>
+
+	* oslash (U+00F8): L<<693.0,856.0>--<528.0,505.0>> -> L<<528.0,505.0>--<349.0,109.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -3242,8 +2010,8 @@ greaterequal, lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 24 | 42 | 482 | 21 | 364 | 0 |
-| 1% | 3% | 4% | 51% | 2% | 39% | 0% |
+| 12 | 20 | 49 | 482 | 21 | 361 | 0 |
+| 1% | 2% | 5% | 51% | 2% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
