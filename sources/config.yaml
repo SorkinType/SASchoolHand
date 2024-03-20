@@ -1,5 +1,35 @@
+recipeProvider: fontprimer
 sources:
   - SaHand.glyphs
-axisOrder:
-  - wght
-familyName: SaHand
+familyName: Edu SA Hand
+shortFamilyName: Edu SA
+variants:
+  - name: Precursive
+    alias: Pre
+    steps:
+      - operation: featureFreeze
+        args: -f ss01
+  - name: Outline
+    steps:
+      - operation: featureFreeze
+        args: -f ss02
+  - name: Cursive
+    steps:
+      - operation: featureFreeze
+        args: -f ss03
+  - name: Starters
+    steps:
+      - operation: featureFreeze
+        args: -f ss04
+  - name: Outline Arrows
+    alias: Arrows
+    steps:
+      - operation: featureFreeze
+        args: -f ss05
+  - name: Dotted
+    steps:
+      - operation: featureFreeze
+        args: -f ss06
+doGuidelines: true
+buildStatic: false
+buildColorVariable: true
